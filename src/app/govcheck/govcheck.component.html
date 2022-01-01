@@ -1,0 +1,7 @@
+<div
+  *ngFor="let chk of mockList">
+  <div>
+    <input type="checkbox" value="{{chk.id}}" (click)="onCheck($event)"/>{{chk.name}}
+  </div>
+
+</div>
